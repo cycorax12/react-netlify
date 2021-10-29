@@ -1,10 +1,13 @@
-
+import './App.css';
 
 function App() {
-  return (
-    <div>
-      Hello from Netlify via ReactJS.
-    </div>
+  return (   
+        <article>
+            <h1>Site is temporarily unavailable.</h1>
+            <p>Scheduled maintenance is currently in progress. Please check back soon.</p>
+            <p>We apologize for any inconvenience.</p>
+            <p id="signature">&mdash; <a href="mailto:[Email]">[Name]</a></p>
+        </article>
   );
 }
 
